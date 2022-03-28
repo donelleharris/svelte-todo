@@ -5,7 +5,7 @@
 		export let newText;
 
 		function created() {
-			console.log("created");
+			//console.log("created");
 			dispatch("created");
 		}
 	</script>

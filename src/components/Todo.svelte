@@ -15,7 +15,7 @@
         } );
     }
     function clickDelete(id){
-        console.log("deleting ", id);
+        //console.log("deleting ", id);
         dispatch("deleted", {
             id: id
         } );

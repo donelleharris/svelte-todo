@@ -1,7 +1,10 @@
 <script>
+
 	export let totalTodos;
 	export let remainingTodos;
+
 </script>
+
 <!-- Header with information -->
 <div class="app-header">
     <div>{ totalTodos } Total</div>

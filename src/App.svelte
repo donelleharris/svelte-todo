@@ -30,7 +30,7 @@
 	}
 
 	function createdTodo() {
-		console.log("created ", {newText});
+		//console.log("created ", {newText});
 		newText = newText.trim();
 
 		if (newText != ""){
@@ -41,7 +41,7 @@
 	}
 	function onDelete(event) {
 		let delId = event.detail.id;
-		console.log("Deleting", delId);
+		//console.log("Deleting", delId);
 
 		todos = todos.filter((todo) => {
 			return todo.id != delId;
